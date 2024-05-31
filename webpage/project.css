@@ -1,0 +1,209 @@
+.links li a {
+    color: #87CEFA; /* Set the text color to white */
+    /* Remove underline from links */
+}
+
+/* This will make only the "Get Started" link text white */
+#getstarted a {
+    color: white;
+}
+
+
+body {
+    font-family: 'Open Sans', rockwell;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 15px;
+    margin: 0;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Start Landing Page */
+.landing-page header {
+    min-height: 80px;
+    display: flex;
+}
+
+.landing-page header {
+    min-height: auto;
+    display: initial;
+}
+
+    .landing-page header .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .landing-page header .logo {
+        color: #87CEFA;
+        font-style: extra bold;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+
+    .landing-page header .links {
+        display: flex;
+        align-items: center;
+    }
+
+        .landing-page header .links li {
+            margin-left: 30px;
+            color: #blue;
+            cursor: pointer;
+            transition: .3s;
+        }
+
+            .landing-page header .links li:last-child {
+                border-radius: 20px;
+                padding: 10px 20px;
+                color: #1F2C73;
+                background-color: #FFD700;
+            }
+
+.landing-page .content .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 140px;
+    min-height: calc(100vh - 80px);
+}
+
+.landing-page .content .info h1 {
+    color: #0F1640;
+    font-size: 44px;
+}
+
+.landing-page .content .info p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #0F1640;
+}
+
+.landing-page .content .info button {
+    border: 0;
+    border-radius: 20px;
+    padding: 12px 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #FFD700;
+}
+
+.landing-page .content .image img {
+    max-width: 110%;
+    border-radius: 0%;
+}
+
+ .content{
+    text-align: center;
+    padding: 50px ;
+}
+
+.image-container {
+    position: CENTER;
+    display: inline-block;
+}
+
+.image-container img {
+    max-width: 60%;
+    height: 50%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.image-link {
+    position: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+}
+
+.link-button {
+    background-color: #007bff; /* light blue */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.link-button:hover {
+    background-color: #0056b3; /* darker blue */
+}
+
+
+.footer {
+    background: #87CEFA;
+    padding: 30px 0px;
+    font-family: 'Open sans', rockwell;
+    text-align: center;
+    bottom: 0;
+    width: 100;
+}
+
+    .footer .row {
+        width: 100%;
+        margin: 1% 0%;
+        padding: 0.6% 0%;
+        color: #1F2C73;
+        font-size: 0.8em;
+    }
+
+        .footer .row a {
+            text-decoration: none;
+            color: #1F2C73;
+            transition: 0.5s;
+        }
+
+            .footer .row a:hover {
+                color: #1F2C73;
+            }
+
+        .footer .row ul {
+            width: 100%;
+        }
+
+            .footer .row ul li {
+                display: inline-block;
+                margin: 0px 30px;
+            }
+
+        .footer .row a i {
+            font-size: 2em;
+            margin: 0% 1%;
+        }
+
+@media (max-width:720px) {
+    .footer {
+        text-align: left;
+        padding: 5%;
+    }
+
+        .footer .row ul li {
+            display: block;
+            margin: 10px 0px;
+            text-align: left;
+        }
+
+        .footer .row a i {
+            margin: 0% 3%;
+        }
+}
+/* End Landing Page */
